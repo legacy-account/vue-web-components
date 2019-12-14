@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-bundle": "vue-cli-service build --target lib --name receipt-editor ./src/components.js",
+    "build-bundle": "vue-cli-service build --target lib --name components ./src/components.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
