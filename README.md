@@ -1,4 +1,4 @@
-# starts-rating-component
+# vue-web-components
 
 ## Project setup
 ```
