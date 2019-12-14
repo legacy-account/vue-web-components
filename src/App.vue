@@ -5,10 +5,12 @@
 </template>
 
 <script>
-import components from './components'
+import StarRating from 'vue-dynamic-star-rating'
 
 export default {
   name: 'app',
-  components
+  components: {
+    StarRating
+  }
 }
 </script>
