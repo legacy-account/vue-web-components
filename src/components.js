@@ -1,5 +1,5 @@
 import StarRating from 'vue-dynamic-star-rating'
 
-export {
+export default {
   StarRating
 };
