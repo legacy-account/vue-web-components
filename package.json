@@ -2,12 +2,9 @@
   "name": "vue-web-components",
   "version": "0.1.0",
   "private": true,
-  "main": "./dist/star-rating.js",
+  "main": "./bundle/star-rating.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "build-bundle": "vue-cli-service build --target wc --name star-rating ./node_modules/vue-dynamic-star-rating/star-rating.vue",
-    "lint": "vue-cli-service lint"
+    "build": "node build.js"
   },
   "dependencies": {
     "core-js": "^3.4.3",
